@@ -1,0 +1,29 @@
+Given two strings s and goal, return true if and only if s can become goal after some number of shifts on s.
+给定两个字符串 s 和 goal ，当且仅当 s 在 s 上经过一定次数的转换后可以变为 goal 时返回 true 。
+
+A shift on s consists of moving the leftmost character of s to the rightmost position.
+s 上的移位包括将 s 的最左边的字符移动到最右边的位置。
+
+    For example, if s = "abcde", then it will be "bcdea" after one shift.
+    例如，如果 s = "abcde" ，那么在一班后它将是 "bcdea" 。
+
+ 
+
+Example 1:
+
+Input: s = "abcde", goal = "cdeab"
+Output: true
+
+Example 2:
+
+Input: s = "abcde", goal = "abced"
+Output: false
+
+ 
+
+Constraints:
+
+    1 <= s.length, goal.length <= 100
+    s and goal consist of lowercase English letters.
+    s 和 goal 由小写英文字母组成。
+
