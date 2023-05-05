@@ -1,7 +1,9 @@
 # Ari-LeetCode
 PythonAlmost :P
 
--Record Only
+-Record Only 
+
+新思路的一些：
 
 ---------------------------------
 
