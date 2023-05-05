@@ -12,3 +12,5 @@ PythonAlmost :P
 [796. Rotate String](https://leetcode.com/problems/rotate-string/submissions/940274455/)   [**暴力解法*](https://leetcode.com/problems/rotate-string/submissions/940280185/)
 
 [268. Missing Number 数学解法](https://leetcode.com/problems/missing-number/submissions/944939347/)  [**异或求解*](https://leetcode.com/problems/missing-number/solutions/3235187/268-solution-with-step-by-step-explanation/?orderBy=hot&languageTags=python)
+
+[748. Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/submissions/945159758/)
