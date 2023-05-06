@@ -14,3 +14,5 @@ PythonAlmost :P
 [268. Missing Number 数学解法](https://leetcode.com/problems/missing-number/submissions/944939347/)  [**异或求解*](https://leetcode.com/problems/missing-number/solutions/3235187/268-solution-with-step-by-step-explanation/?orderBy=hot&languageTags=python)
 
 [748. Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/submissions/945159758/)
+
+[1200. 最小绝对差](https://leetcode.com/problems/minimum-absolute-difference/submissions/945568186/)
