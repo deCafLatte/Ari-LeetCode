@@ -1,0 +1,37 @@
+You are given two string arrays words1 and words2.
+您将获得两个字符串数组 words1 和 words2 。
+
+A string b is a subset of string a if every letter in b occurs in a including multiplicity.
+字符串 b 是字符串 a 的子集，如果 b 中的每个字母都出现在 a 中，包括多重性。
+
+    For example, "wrr" is a subset of "warrior" but is not a subset of "world".
+    例如， "wrr" 是 "warrior" 的子集，但不是 "world" 的子集。
+
+A string a from words1 is universal if for every string b in words2, b is a subset of a.
+如果对于 words2 中的每个字符串 b ， b 是 a 的子集，则来自 words1 的字符串 a 是通用的。
+
+Return an array of all the universal strings in words1. You may return the answer in any order.
+返回 words1 中所有通用字符串的数组。您可以按任何顺序返回答案。
+
+ 
+
+Example 1:
+
+Input: words1 = ["amazon","apple","facebook","google","leetcode"], words2 = ["e","o"]
+Output: ["facebook","google","leetcode"]
+
+Example 2:
+
+Input: words1 = ["amazon","apple","facebook","google","leetcode"], words2 = ["l","e"]
+Output: ["apple","google","leetcode"]
+
+ 
+
+Constraints:
+
+    1 <= words1.length, words2.length <= 104
+    1 <= words1[i].length, words2[i].length <= 10
+    words1[i] and words2[i] consist only of lowercase English letters.
+    words1[i] 和 words2[i] 仅由小写英文字母组成。
+    All the strings of words1 are unique.
+    words1 的所有字符串都是唯一的
