@@ -16,3 +16,5 @@ PythonAlmost :P
 [748. Shortest Completing Word](https://leetcode.com/problems/shortest-completing-word/submissions/945159758/)
 
 [1200. 最小绝对差](https://leetcode.com/problems/minimum-absolute-difference/submissions/945568186/)
+
+[916.词子集](https://leetcode.com/problems/word-subsets/submissions/947413203/)
