@@ -1,0 +1,35 @@
+You are given an integer array deck where deck[i] represents the number written on the ith card.
+您将获得一个整数数组 deck ，其中 deck[i] 表示写在 ith 卡上的数字。
+
+Partition the cards into one or more groups such that:
+将卡划分为一个或多个组，以便：
+
+    Each group has exactly x cards where x > 1, and
+    每组都有正好 x 卡片，其中 x > 1 和
+    All the cards in one group have the same integer written on them.
+    一组中的所有卡片上都写着相同的整数。
+
+Return true if such partition is possible, or false otherwise.
+如果可以，则返回 true ，否则返回 false 。
+
+ 
+
+Example 1:
+
+Input: deck = [1,2,3,4,4,3,2,1]
+Output: true
+Explanation: Possible partition [1,1],[2,2],[3,3],[4,4].
+
+Example 2:
+
+Input: deck = [1,1,1,2,2,2,3,3]
+Output: false
+Explanation: No possible partition.
+
+ 
+
+Constraints:
+
+    1 <= deck.length <= 104
+    0 <= deck[i] < 104
+
