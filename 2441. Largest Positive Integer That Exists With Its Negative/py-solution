@@ -1,0 +1,13 @@
+class Solution(object):
+    def findMaxK(self, nums):
+        b=[]
+        a=0
+        for i in nums :
+            
+            if i in nums and -i in nums:
+                a=a+1
+                b.append(i)
+        if a>0:
+            return max(b)     
+        else:
+            return -1  
